@@ -1,0 +1,13 @@
+package com.example.demo;
+
+public class Orders {
+	ArrayList < Object > order = new ArrayList < Object > ();
+
+
+	 // Getter Methods 
+
+
+
+	 // Setter Methods 
+
+}

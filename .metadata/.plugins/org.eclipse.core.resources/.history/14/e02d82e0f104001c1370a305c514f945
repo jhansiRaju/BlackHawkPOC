@@ -1,0 +1,36 @@
+package com.example.demo;
+
+public class Ordercentral {
+    Fulfillmentreq FulfillmentreqObject;
+    private String _xmlns: xsi;
+    private String _xsi: noNamespaceSchemaLocation;
+
+
+    // Getter Methods 
+
+    public Fulfillmentreq getFulfillmentreq() {
+        return FulfillmentreqObject;
+    }
+
+    public String get_xmlns: Object xsi() {
+        return _xmlns: xsi;
+    }
+
+    public String get_xsi: noNamespaceSchemaLocation() {
+        return _xsi: noNamespaceSchemaLocation;
+    }
+
+    // Setter Methods 
+
+    public void setFulfillmentreq(Fulfillmentreq fulfillmentreqObject) {
+        this.FulfillmentreqObject = fulfillmentreqObject;
+    }
+
+    public void set_xmlns: xsi(String _xmlns: xsi) {
+        this._xmlns: xsi = _xmlns: xsi;
+    }
+
+    public void set_xsi: noNamespaceSchemaLocation(String _xsi: noNamespaceSchemaLocation) {
+        this._xsi: noNamespaceSchemaLocation = _xsi: noNamespaceSchemaLocation;
+    }
+}
